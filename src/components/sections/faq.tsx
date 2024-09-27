@@ -36,7 +36,7 @@ export function Faq() {
   const handleOpen = (value: number) => setOpen(open === value ? 0 : value);
 
   return (
-    <section className="py-8 px-8 lg:py-20">
+    <section className="pt-8 px-8 lg:pt-20">
       <div className="container mx-auto">
         <div className="text-center">
           <Typography variant="h4" className="mb-8 uppercase text-[#f95c97]">

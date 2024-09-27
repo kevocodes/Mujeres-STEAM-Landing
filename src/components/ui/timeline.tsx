@@ -23,7 +23,7 @@ const schedule = [
 
 function Timeline() {
   return (
-    <div className="max-w-[32rem] text-left">
+    <div className="max-w-[32rem] text-left text-white">
       <TimelineComponent>
         {schedule.map((item, index) => (
           <TimelineItem

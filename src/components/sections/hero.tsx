@@ -30,7 +30,7 @@ const INFO = [
 
 function Hero() {
   return (
-    <div className="relative min-h-screen w-full bg-[url('/image/background2.jpg')] bg-cover bg-no-repeat">
+    <div className="relative min-h-screen w-full bg-[url('/image/background2.jpg')] bg-cover bg-no-repeat bg-fixed">
       <div className="absolute inset-0 h-full w-full" />
       <div className="grid min-h-screen px-8">
         <div className="container relative z-10 my-auto mx-auto grid place-items-center text-center gap-6">
