@@ -14,9 +14,8 @@ function TimelineItem({ time, description, withoutConnector }: TimelineItemProps
           {!withoutConnector && <TimelineConnector />}
 
           <TimelineHeader>
-            <TimelineIcon className="bg-white p-[1px]" >
-              <Icon icon="majesticons:clock" fontSize={20} className="text-[#F95C97]"/>
-            </TimelineIcon>
+            <TimelineIcon className="bg-white p-[1px] flex flex-row justify-center items-center" >
+              <ClockIcon className="h-4 w-4 text-[#F95C97]" />            </TimelineIcon>
             <Typography variant="h6" color="white">
               {time}
             </Typography>
