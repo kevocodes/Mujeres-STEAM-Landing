@@ -36,6 +36,7 @@ export function Faq() {
   const handleOpen = (value: number) => setOpen(open === value ? 0 : value);
 
   return (
+    // <section className="pt-8 px-8 lg:pt-20 pb-28 lg:pb-80">
     <section className="pt-8 px-8 lg:pt-20">
       <div className="container mx-auto">
         <div className="text-center">
