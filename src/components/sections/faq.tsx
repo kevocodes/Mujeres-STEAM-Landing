@@ -19,7 +19,7 @@ const FAQS = [
   },
   {
     title: "¿La Cumbre del empoderamieno de las niñas en STEM, es exclusiva para el género femenino?",
-    desc: "No, todos son bienvenidos a la Cumbre del empoderamieno de las niñas en STEM, sin importar el género.¿La Cumbre del empoderamieno de las niñas en STEM, es exclusiva para el género femenino?",
+    desc: "No, todos son bienvenidos a la Cumbre del empoderamieno de las niñas en STEM, sin importar el género.",
   },
   {
     title: "¿Cual es la sede principal de la Cumbre del empoderamiento de las niñas en STEM? ",
@@ -27,7 +27,7 @@ const FAQS = [
   },
   {
     title: "¿Puedo ser parte de la Cumbre del empoderamiento de las niñas en STEM, como ponente?",
-    desc: "Respuesta 5Si, puedes ser parte debes contactarte con las organizadoras del evento para valorar la participación en futuras cumbres.",
+    desc: "Si, puedes ser parte debes contactarte con las organizadoras del evento para valorar la participación en futuras cumbres.",
   },
 ];
 

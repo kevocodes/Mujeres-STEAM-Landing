@@ -5,7 +5,7 @@ import TimelineItem from "./timeline-item";
 const schedule = [
   {
     time: "8:00 am",
-    description: "Registro de asistencia y montaje de feria",
+    description: "Registro de asistencia",
     place: "Atrio ICAS",
     mode: "Presencial"
   },

@@ -15,6 +15,7 @@ import {
   VideoCameraIcon,
 } from "@heroicons/react/24/solid";
 import logoCumbre from "@/assets/images/logoCumbre.svg";
+import logoCumbreRosa from "@/assets/images/logoCumbreRosa.svg";
 
 interface NavItemProps {
   children: React.ReactNode;
@@ -99,7 +100,7 @@ export function Navbar() {
             </Typography> */}
 
             <div>
-              <img src={logoCumbre.src} className="h-[90px] w-[200px]" />
+              <img src={logoCumbreRosa.src} className="h-[90px] w-[200px]" />
             </div>
 
             <div className="hidden items-center gap-4 lg:flex">
@@ -107,6 +108,9 @@ export function Navbar() {
                 color={isScrolling ? "gray" : "white"}
                 className="flex gap-3"
                 variant="gradient"
+                onClick={() => {
+                  window.open("https://www.youtube.com/watch?v=fhQKBkEdbMM", "_blank");
+                }}
               >
                 <p className="pt-1">Ver evento en vivo</p>
                 <VideoCameraIcon className="h-5 w-5" />

@@ -42,13 +42,19 @@ function Hero() {
             II Cumbre del empoderamiento de las niñas en STEM
           </Typography>
           <div className="flex items-center gap-4">
-            <Button color="white" className="flex items-center gap-3">
+            <Button 
+              color="white" 
+              className="flex items-center gap-3"
+              onClick={() => {
+                window.open("https://www.youtube.com/watch?v=fhQKBkEdbMM", "_blank");
+              }}
+              >
               <p className="pt-1">Ver evento en vivo</p>
               <VideoCameraIcon className="h-5 w-5 text-gray-900" />
             </Button>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 max-w-xl gap-3 place-items-center mt-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 max-w-2xl gap-3 place-items-center mt-6">
             {INFO.map((props, idx) => (
               <InfoCard key={idx} {...props} />
             ))}
