@@ -10,24 +10,24 @@ import {
 
 const FAQS = [
   {
-    title: "1. Pregunta 1",
-    desc: "Respuesta 1",
+    title: "¿Ser parte de la Cumbre del empoderamieno de las niñas en STEM tiene costo?",
+    desc: "No, es completamente gratuito. ",
   },
   {
-    title: "2. Pregunta 2",
-    desc: "Respuesta 2",
+    title: "¿Cuál es la modalidad de la Cumbre del empoderamieno de las niñas en STEM?",
+    desc: "Híbrido, puedes ser parte de forma presencial o puedes conectarte al enlace de transmisión a través de youtube. ",
   },
   {
-    title: "3. Pregunta 3",
-    desc: "Respuesta 3",
+    title: "¿La Cumbre del empoderamieno de las niñas en STEM, es exclusiva para el género femenino?",
+    desc: "No, todos son bienvenidos a la Cumbre del empoderamieno de las niñas en STEM, sin importar el género.¿La Cumbre del empoderamieno de las niñas en STEM, es exclusiva para el género femenino?",
   },
   {
-    title: "4. Pregunta 4",
-    desc: "Respuesta 4",
+    title: "¿Cual es la sede principal de la Cumbre del empoderamiento de las niñas en STEM? ",
+    desc: "Universidad Centroamericana José Simeón Cañas, El Salvador",
   },
   {
-    title: "5. Pregunta 5",
-    desc: "Respuesta 5",
+    title: "¿Puedo ser parte de la Cumbre del empoderamiento de las niñas en STEM, como ponente?",
+    desc: "Respuesta 5Si, puedes ser parte debes contactarte con las organizadoras del evento para valorar la participación en futuras cumbres.",
   },
 ];
 

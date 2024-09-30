@@ -8,22 +8,22 @@ const INFO = [
   {
     label: "Lugar",
     description:
-      "Auditorio Elba y Celina Ramos. Edificio D. Campus UCA, El Salvador",
+      "Auditorio Segundo Montes, Edificio ICAS, Universidad Centroamericana José Simeón Cañas, El Salvador",
     iconName: "ion:location"
   },
   {
     label: "Modalidad",
-    description: "Formato hibrido",
+    description: "Formato híbrido",
     iconName: "fluent:people-team-16-filled"
   },
   {
     label: "Hora",
-    description: "3:00 pm - 6:00 pm (UTC-6)",
+    description: "8:30 am - 10:45 am (GMT-6)",
     iconName: "mdi:clock"
   },
   {
     label: "Fecha",
-    description: "Viernes 10 de diciembre de 2021",
+    description: "Viernes 11 de octubre de 2024",
     iconName: "ion:calendar"
   },
 ];

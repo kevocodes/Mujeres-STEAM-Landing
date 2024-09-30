@@ -4,21 +4,53 @@ import TimelineItem from "./timeline-item";
 
 const schedule = [
   {
-    time: "3:00 pm",
-    description: "Presentación del evento",
+    time: "8:00 am",
+    description: "Registro de asistencia y montaje de feria",
+    place: "Atrio ICAS",
+    mode: "Presencial"
   },
   {
-    time: "3:10 pm",
-    description: "Palabras de inauguración del evento",
+    time: "8:30 am",
+    description: "Saludo",
+    place: "Segundo Montes",
+    mode: "Híbrido"
   },
   {
-    time: "3:15 pm",
-    description: "Lanzamiento de IAJES",
+    time: "8:35 am - 9:00 am",
+    description: "Ponencia: Los retos de las mujeres del area de ingenieria",
+    place: "Segundo Montes",
+    mode: "Híbrido"
   },
   {
-    time: "3:30 pm",
-    description: "Investigación de UNA - Costa Rica"
-  }
+    time: "9:05 am - 9:50 am",
+    description: "Panel: Proyectos o iniciativas, políticas en apoyo a la educación y mujeres en STEM",
+    place: "Segundo Montes",
+    mode: "Híbrido"
+  },
+  {
+    time: "9:50 am - 10:00 am",
+    description: "Receso",
+    place: "Atrio ICAS",
+    mode: "Híbrido"
+  },
+  {
+    time: "10:05 am - 10:40 am",
+    description: "Panel: Experiencias de estudiantes UCA en Intercambios internacionales",
+    place: "Segundo Montes",
+    mode: "Híbrido"
+  },
+  {
+    time: "10:40 am - 10:45 am",
+    description: "Palabras de cierre",
+    place: "Segundo Montes",
+    mode: "Híbrido"
+  },
+  {
+    time: "10:45 am - 11:30 am",
+    description: "Feria de proyectos",
+    place: "Atrio ICAS",
+    mode: "Presencial"
+  },
 ];
 
 function Timeline() {
@@ -30,6 +62,8 @@ function Timeline() {
             key={index}
             time={item.time}
             description={item.description}
+            place={item.place}
+            mode={item.mode}
             withoutConnector={index === schedule.length - 1}
           />
         ))}

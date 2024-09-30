@@ -12,7 +12,7 @@ const organizers = [
     name: "Gabriela Reynosa",
     title: "Ingeniera en Electrónica",
     email: "greynosa@uca.edu.sv",
-    orcid: "https://orcid.org/0000-0002-1825-0097",
+    orcid: "https://orcid.org/0009-0003-5667-3036 ",
     linkedin: "https://www.linkedin.com/in/gabriela-reynosa-7b0b3b1b7/",
   },
   {

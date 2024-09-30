@@ -5,10 +5,12 @@ import { TimelineBody, TimelineConnector, TimelineHeader, TimelineIcon, Timeline
 interface TimelineItemProps {
   time: string;
   description: string;
+  place: string;
+  mode: string;
   withoutConnector?: boolean;
 }
 
-function TimelineItem({ time, description, withoutConnector }: TimelineItemProps) {
+function TimelineItem({ time, description, place, mode, withoutConnector }: TimelineItemProps) {
   return (
     <TimelineItemComp>
           {!withoutConnector && <TimelineConnector />}
@@ -20,9 +22,16 @@ function TimelineItem({ time, description, withoutConnector }: TimelineItemProps
               {time}
             </Typography>
           </TimelineHeader>
+
           <TimelineBody className="pb-8">
             <Typography color="gray" className="font-normal text-white">
               {description}
+            </Typography>
+            <Typography color="gray" className="font-normal text-white">
+            <span className="font-bold">Lugar:</span> {place}
+            </Typography>
+            <Typography color="gray" className="font-normal text-white">
+            <span className="font-bold">Modalidad:</span> {mode}
             </Typography>
           </TimelineBody>
         </TimelineItemComp>
