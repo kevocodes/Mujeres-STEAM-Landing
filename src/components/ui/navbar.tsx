@@ -14,6 +14,7 @@ import {
   Bars3Icon,
   VideoCameraIcon,
 } from "@heroicons/react/24/solid";
+import logoCumbre from "@/assets/images/logoCumbre.svg";
 
 interface NavItemProps {
   children: React.ReactNode;
@@ -90,12 +91,16 @@ export function Navbar() {
       <div className="container mx-auto flex items-center justify-between">
         {isScrolling && (
           <>
-            <Typography
+            {/* <Typography
               color={isScrolling ? "blue-gray" : "white"}
               className="text-lg font-bold"
             >
               Cumbre STEM
-            </Typography>
+            </Typography> */}
+
+            <div>
+              <img src={logoCumbre.src} className="h-[90px] w-[200px]" />
+            </div>
 
             <div className="hidden items-center gap-4 lg:flex">
               <Button

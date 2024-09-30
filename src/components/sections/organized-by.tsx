@@ -12,18 +12,16 @@ const organizers = [
     name: "Gabriela Reynosa",
     title: "Ingeniera en Electrónica",
     email: "greynosa@uca.edu.sv",
-    orcid: "https://orcid.org/0009-0003-5667-3036 ",
-    linkedin: "https://www.linkedin.com/in/gabriela-reynosa-7b0b3b1b7/",
+    orcid: "https://orcid.org/0009-0003-5667-3036",
+    scholar: "https://scholar.google.es/citations?user=0sZr4IsAAAAJ&hl=es"
   },
   {
     img: marleneImg.src,
     name: "Marlene Navarro",
     title: "Ingeniera en Sistemas y Redes Informáticas",
     email: "meaguilar@uca.edu.sv",
-    website: "https://www.linkedin.com/in/marlene-navarro-7b0b3b1b7/",
-    orcid: "https://orcid.org/0000-0002-1825-0097",
-    linkedin: "https://www.linkedin.com/in/marlene-navarro-7b0b3b1b7/",
-    twitter: "https://twitter.com/marlenenavarro",
+    orcid: "https://orcid.org/0009-0003-5667-3036",
+    scholar: "https://scholar.google.es/citations?user=ICZpLH8AAAAJ&hl=es"
   },
 ];
 

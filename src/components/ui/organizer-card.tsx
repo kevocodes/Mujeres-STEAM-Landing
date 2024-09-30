@@ -14,9 +14,7 @@ interface TeamCardPropsType {
   title: string;
   email: string;
   orcid?: string;
-  linkedin?: string;
-  website?: string;
-  twitter?: string;
+  scholar?: string;
 }
 
 function OrganizerCard({
@@ -24,10 +22,8 @@ function OrganizerCard({
   name,
   title,
   email,
-  linkedin,
   orcid,
-  website,
-  twitter,
+  scholar,
 }: TeamCardPropsType) {
   return (
     <Card className="rounded-lg flex-1 max-w-64" shadow={false}>
@@ -69,40 +65,20 @@ function OrganizerCard({
                 window.open(orcid, "_blank");
               }}
             >
-              <Icon icon="simple-icons:orcid" fontSize={20} />
+              <Icon icon="simple-icons:orcid" fontSize={24} />
             </IconButton>
           )}
-          {linkedin && (
+          {scholar && (
             <IconButton
               variant="text"
               color="gray"
               onClick={() => {
-                window.open(linkedin, "_blank");
+                window.open(scholar, "_blank");
               }}
             >
-              <Icon icon="bi:linkedin" fontSize={20} />
-            </IconButton>
-          )}
-          {twitter && (
-            <IconButton
-              variant="text"
-              color="gray"
-              onClick={() => {
-                window.open(twitter, "_blank");
-              }}
-            >
-              <Icon icon="akar-icons:twitter-fill" fontSize={20} />
-            </IconButton>
-          )}
-          {website && (
-            <IconButton
-              variant="text"
-              color="gray"
-              onClick={() => {
-                window.open(website, "_blank");
-              }}
-            >
-              <Icon icon="mdi:web" fontSize={20} />
+              <div className="bg-black w-[24px] h-[24px] flex justify-center items-center rounded-full">
+              <Icon icon="academicons:google-scholar" fontSize={20} className="text-white"/>
+              </div>
             </IconButton>
           )}
         </div>
