@@ -20,7 +20,7 @@ const organizers = [
     name: "Marlene Navarro",
     title: "Ingeniera en Sistemas y Redes Informáticas",
     email: "meaguilar@uca.edu.sv",
-    orcid: "https://orcid.org/0009-0003-5667-3036",
+    orcid: "https://orcid.org/0009-0003-2309-3107 ",
     scholar: "https://scholar.google.es/citations?user=ICZpLH8AAAAJ&hl=es"
   },
 ];
