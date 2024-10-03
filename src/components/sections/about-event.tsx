@@ -10,13 +10,13 @@ const EVENT_INFO = [
     img: mission.src,
     title: "Nuestra misión",
     description:
-      "Promover la educación y el empoderamiento de las niñas en áreas STEM a través de la colaboración entre organismos nacionales e internacionales, fomentando el intercambio de ideas y experiencias a través de un espacio inclusivo para la difusión de investigaciones y la presentación de proyectos que impulsen la participación femenina en estas disciplinas, asegurando un futuro más equitativo y sostenible.",
+      "Promover el diálogo para el empoderamiento de las niñas en áreas STEM a través de la educación. Dicho diálogo es abierto a organismos nacionales e internacionales para presentar proyectos e investigaciones que impulsen la participación de las mujeres en esta área.",
   },
   {
     img: vission.src,
     title: "Nuestra visión",
     description:
-      "Ser un referente en la promoción de la educación STEM para niñas, donde cada año se reúnan líderes, educadores y defensores del cambio para inspirar, innovar y transformar la percepción y la realidad de las mujeres en ciencias, tecnología, ingeniería y matemáticas, contribuyendo así al desarrollo de la sociedad salvadoreña.",
+      "Ser un espacio referente para la discusión que conlleve a una transformación de la realidad de las mujeres en ciencia, tecnología, ingeniería y matemáticas; contribuyendo al desarrollo de la sociedad salvadoreña.",
   },
 ];
 
